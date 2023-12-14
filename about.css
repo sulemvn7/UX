@@ -454,28 +454,6 @@ footer{
   line-height: 28px;
   font-size: 14px;
 }
-.socials{
-  list-style: none;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  margin: 1rem 0 3rem 0;
-}
-.socials li{
-  margin: 0 10px;
-}
-.socials a{
-  text-decoration: none;
-  color: #fff;
-}
-.socials a i{
-  font-size: 1.1rem;
-  transition: color .5s ease;
-
-}
-.socials a:hover i{
-  color:beige;
-}
 
 .footer-bottom{
   background:rg;
