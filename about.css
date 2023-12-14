@@ -29,6 +29,12 @@
     
     position: relative;
   }
+
+.web-title{
+    font-size: 36px;
+    font-weight: 600;
+    color: #fff;
+}
   nav img{
     width: 150px;
   }
