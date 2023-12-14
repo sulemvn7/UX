@@ -210,3 +210,10 @@ h3{
     padding: 20px 30px;
     box-sizing: border-box;
 }
+.ProductTitle{
+    color: #000
+}
+.grid-item:hover{
+    background: #1cffac;
+    transition: 1s;
+}
