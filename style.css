@@ -6,7 +6,7 @@ font-family: 'Montserrat', sans-serif;
 .header{
   min-height: 100vh;
   width: 100%;
-  background-image: linear-gradient(rgba(4,9,30,0.7), rgba(4,9,30,07)), url(https://www.knowmastery.com/wp-content/uploads/Perfume_Bottles.png);
+  background-image: linear-gradient(rgba(95,114,100,0.7), rgba(95,114,100,07)), url(https://www.knowmastery.com/wp-content/uploads/Perfume_Bottles.png);
   background-position: center;
   background-size: cover;
   position: relative;
