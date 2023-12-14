@@ -1,17 +1,20 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Perfume Shop</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Perfume</title>
   <link rel="stylesheet" href="style.css">
-
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;400&display=swap" rel="stylesheet">
+<link rel = "stylesheet" href = "https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
-  <section class="header">
-    <nav>
-    <a href ="index.html">
-    <div class="nav-links">
+<section class="sub-header">
+  <nav>
+    <a href ="index.html"><img src="https://static.vecteezy.com/system/resources/previews/019/514/630/original/letter-k-logo-design-for-business-and-company-identity-with-luxury-concept-free-vector.jpg"></a>
+    <div class="nav-links" id="navLinks">
+        <i class ="fa fa-times" onclick="hideMenu()"></i>
       <ul>
         <li><a href = "">HOME</a></li>
         <li><a href = "">ABOUT</a></li>
@@ -19,11 +22,13 @@
         <li><a href = "">CONTACT US</a></li>
       </ul>
     </div>
-  </nav>
-  </section>
-
-<section class ="shop-content"  
-  <div class="product">
+      <i class ="fa fa-bars" onclick="showMenu()"></i>
+   </nav>
+    <h1>Shop</h1>
+</section>
+<section class ="shop-content"> 
+<div class="row">
+    <div class="product">
   <img src = "data:image/webp;base64,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">
   <h4><a href = "https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&cad=rja&uact=8&ved=2ahUKEwiChpHE9OSCAxVaUUEAHVq-DS8QFnoECBAQAQ&url=https%3A%2F%2Fwww.dior.com%2Fen_gb%2Fbeauty%2Fsauvage-fragrance&usg=AOvVaw1tpJQ2a8luTQ5IDfseDNPO&opi=89978449">Sauvage Dior Men's Perfume</a></h4>
    <p>Price: £59.99</p>
@@ -59,7 +64,8 @@
 <h4><a href = "https://www.thefragranceshop.co.uk/chloe/chloe/eau-de-parfum-spray/p/10227">Chloe Women's perfume 30ml</a></h4>
 <p>Price: £64.99</p>
 </div>
-
+</div>
+<div class="row">
 <div class = "product">
 <img src = "data:image/webp;base64,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">
 <h4><a href = "https://www.dior.com/en_gb/beauty/products/miss-dior-eau-de-parfum-C099600762.html"> Dior Women's perfume 30ml</a></h4>
@@ -71,5 +77,21 @@
 <h4><a href = "https://www.hugoboss.com/uk/femme-by-boss-eau-de-parfum-50ml/hbeu58000021_999.html">Hugo Boss Women's Perfume</a></h4>
 <p>Price: £45.00</p>
 </div>
+    </div>
+  
  </section>
+    
+  <!--JS For Sidebar--->  
+    <script>
+    var navLinks = document.getElementById("navLinks");
+    function showMenu(){
+          navLinks.style.right = "0";
+        
+        }
+    function hideMenu(){
+        navLinks.style.right = "-200px";
+    }
+    </script>
 
+</body>
+</html>
