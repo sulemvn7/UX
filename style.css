@@ -187,3 +187,8 @@ h3{
     color:#fff;
         
 }
+.grid-container {
+  display: grid;
+   margin-top: 5%;
+    justify-content: space-between;
+}
