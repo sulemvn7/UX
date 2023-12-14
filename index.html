@@ -1,23 +1,24 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta name="viewport" content="with-device-width, initial-scale=1.0">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Perfume</title>
   <link rel="stylesheet" href="style.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;400&display=swap" rel="stylesheet">
+<link rel = "stylesheet" href = "https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
 <section class="header">
   <nav>
     <a href ="index.html"><img src="https://static.vecteezy.com/system/resources/previews/019/514/630/original/letter-k-logo-design-for-business-and-company-identity-with-luxury-concept-free-vector.jpg"></a>
-    <div class="nav-links">
+    <div class="nav-links" id="navLinks">
         <i class ="fa fa-times" onclick="hideMenu()"></i>
       <ul>
         <li><a href = "">HOME</a></li>
-        <li><a href = "">ABOUT</a></li>
-        <li><a href = "">SHOP</a></li>
+        <li><a href = "about.html">ABOUT</a></li>
+        <li><a href = "shop.html">SHOP</a></li>
         <li><a href = "">CONTACT US</a></li>
       </ul>
     </div>
@@ -25,9 +26,22 @@
    </nav>
     <div class ="text-box">
         <h1>AROMMISTA.</h1>
-        <p>At AROMMISTA, we believe that perfume is more than just a fragrance; it's an expression of individuality and style. Our website is a sensory journey, inviting you to discover the perfect scent that resonates with your personality and evokes cherished memories.</p>
-        <a href="" class="hero-btn">ENTER SHOP</a>
+        <p>Perfume shop</p>
+        <a href="shop.html" class="hero-btn">ENTER SHOP</a>
     </div>
 </section>
+
+  <!--JS For Sidebar--->  
+    <script>
+    var navLinks = document.getElementById("navLinks");
+    function showMenu(){
+          navLinks.style.right = "0";
+        
+        }
+    function hideMenu(){
+        navLinks.style.right = "-200px";
+    }
+    </script>
+
 </body>
 </html>
