@@ -80,6 +80,9 @@ nav img{
     background: #f44336;
     transition: 1s;
 }
+nav .fa{
+    display: none;
+}
 @media(max-width: 700px){
     .text-box h1{
         font-size:20px;
@@ -93,9 +96,10 @@ nav img{
         height:100vh;
         width:200px;
         top:0;
-        right:-200;
+        right: -200px;
         text-align: left;
         z-index:2;
+        transition: 1s;
     }
     nav .fa{
         display: block;
@@ -109,3 +113,77 @@ nav img{
         
     }
 } 
+/*----WhatWeSell ----*/
+.about{
+    width: 80%
+    margin: auto;
+    text-align:center;
+    padding-top: 100px;
+}
+h1{
+    font-size: 36px;
+    font-weight: 600;
+    
+}
+.MainDescription p{
+    color: #fff;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 22px;
+    padding: 10px;
+}
+.row{
+    margin-top: 5%;
+    display: flex;
+    justify-content: space-between;
+}
+.about-col{
+    flex-basis: 24%;
+    background: #fff3f3;
+    border-radius: 30px;
+    margin-bottom: 5%;
+    padding: 20px 12px;
+    box-sizing: border-box;
+    color: black;
+}
+.TypePDescription p{
+    color:black;
+    font-size: 14px;
+    font-weight: 100;
+    line-height: 22px;
+    padding: 10px;
+}
+.product{
+    flex-basis: 24%;
+    background: #fff3f3;
+    border-radius: 10px;
+    margin-bottom: 5%;
+    padding: 20px 12px;
+    box-sizing: border-box;
+}
+h3{
+    text-align:center;
+    font-weight: 600;
+    margin: 10px 0;
+}
+
+.about-col:hover{
+    box-shadow: 0 0 20px 0px rgba(0,0,0,0.2)
+        
+}
+@media(max-width: 700px){
+    .row{
+        flex-direction: column;
+    }
+}
+/*-----------------shop-------------------*/
+.sub-header{
+    height: 50vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(https://i.pinimg.com/originals/63/71/b9/6371b96dfb59740b017ffd3518060c66.jpg);
+    background-position:center;
+    background-size:cover;
+    text-align: center;
+    color:#fff;
+        
+}
